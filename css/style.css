@@ -1,0 +1,176 @@
+li{
+  list-style-type: none;
+}
+.glavnaya{
+
+  background-image: url(../img/landscape.jpg);
+  background-size:cover auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+.galleria{
+  width: 50vw;
+  height: 50vh;
+  background: #fff;
+}
+.zagolovok{
+
+  text-align: center;
+  font-family: "FFcava", cursive, sans-serif;
+  font-size: 300%;
+  color:rgb(100,100,100);
+}
+.korall{
+  background-color: rgb(252, 249, 200);
+}
+.zeleniy{
+  background-color: rgb(196, 252, 205);
+}
+.landscape-image{
+
+display: flex;
+justify-content: center;
+background-position: center;
+height: 100vh;
+background-size: auto;
+}
+.image-1{
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width:1150px) {
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.flex-container-manystrings{
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 0;
+}
+@media (max-width: 891px) {
+  .image{
+   width:100%;
+  }
+}
+.image:hover{
+  border: 3px solid black ;
+  border-radius: 10px;
+}
+
+.navigation{
+  display: inline;
+}
+.introduction{
+
+
+  font-style: italic;
+  font-weight: 100;
+  font-size: 200%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: rgb(0,0,0);
+}
+.zagolovok-osetia{
+  font-family: "Buxton Sketch", cursive, sans-serif;
+  font-size: 200%;
+  color: rgb(100,100,100);
+  text-align: left;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.section-2{
+  margin-left: 3%;
+  margin-right: 3%;
+
+  font-style: italic;
+  font-size: 200%;
+  text-align: left;
+  width: 50vw;
+  color: rgb(0,0,0);
+}
+.section-2-1{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 200%;
+  text-align: right;
+  width: 50vw;
+}
+.section-3{
+  margin-left: 30%;
+  margin-right: 30%;
+  font-style: italic;
+  font-size: 200%;
+  text-align: center;
+}
+.section-4{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 150%;
+  text-align: center;
+
+}
+@media (max-width:1100px) {
+  .galleria{
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+  }
+  .zagolovok-osetia{
+    font-family: "Buxton Sketch", cursive, sans-serif;
+    font-size: 200%;
+    color: rgb(100,100,100);
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .introduction{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 200%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: rgb(0,0,0);
+  }
+  .section-2{
+    margin-left: 2%;
+    margin-right: 2%;
+  width: 100vw;
+    font-size: 200%;
+    text-align: center;
+  }
+  .section-3{
+    margin-left: 2%;
+    margin-right: 2%;
+
+    font-size: 200%;
+    text-align: center;
+  }
+  .section-4{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-size: 150%;
+    text-align: center;
+  }
+}
